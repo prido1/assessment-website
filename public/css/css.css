@@ -1,0 +1,331 @@
+body {
+    color: #5e5e5e;
+}
+
+.content-wraper {
+    margin: 90px 0;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.header-bg,
+nav.main-nav.navbar {
+    background-color: var(--primary) !important;
+}
+
+.header .description {
+    font-size: 16px;
+}
+
+.header .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper {
+    padding: 0px 250px 80px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: rgb(243, 237, 237);
+}
+
+.header a .watch-icon {
+    color: var(--primary);
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.btn-white {
+    color: var(--primary) !important;
+    background: white !important;
+}
+
+.btn-white:hover {
+    color: var(--primary) !important;
+    background: rgb(243, 237, 237) !important;
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+
+.about .heading{
+    font-size: 25px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about .nav .nav-item .nav-link{
+    font-size: 12px;
+}
+
+.nav-tab-light {
+    padding: 15px;
+    background: rgb(241, 241, 241);
+}
+
+.nav-tab-light .nav-item .nav-link {
+    font-weight: bold;
+    color: #5e5e5e !important;
+    background: white !important;
+}
+
+.nav-pills .nav-item:not(:first-child) {
+    margin-left: 10px;
+}
+
+.nav-tab-light .nav-item .nav-link.active {
+    color: rgb(255, 255, 255) !important;
+    background: var(--primary) !important;
+}
+
+.service-item {
+    padding: 30px;
+}
+
+.service-item i {
+    width: fit-content;
+    padding: 15px;
+    font-size: 25px;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.service-item .item-title {
+    font-size: 18px;
+}
+
+.outline-primary {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    background: transparent;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price-wraper {
+    position: relative;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.pricing-item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.062)
+}
+
+.pricing-item:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.pricing-item.best:hover{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.062) !important;
+}
+
+.pricing-item .plan-name {
+    padding: 5px 20px;
+}
+
+.pricing-item.best .plan-name {
+    color: #fff;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.pricing-item .price-wraper .price:not(:empty):before {
+    top: 10px;
+    content: "$";
+    font-size:.5em;
+    position: absolute;
+    left: -12px;
+}
+
+.choose-plan-btn {
+    color: #fff;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    background: var(--primary);
+}
+
+.footer .footer-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+
+}
+
+.footer .footer-description {
+    color: #fff;
+    text-align: center;
+}
+
+.home-featured{
+    display: block;
+}
+
+@media (max-width:576px) {
+
+    .header .header-content h1, .header .header-content .description,
+    .header .header-content .buttons{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content-wraper {
+        margin: 90px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home-featured{
+        display: none !important;
+    }
+
+    nav.main-nav.navbar{
+        padding: 10px 10px !important;
+    }
+
+    .header-wrapper {
+        padding: 0px 10px 80px;
+    }
+}
+
+@media (max-width: 767px)  {
+    .header .header-content h1, .header .header-content .description,
+    .header .header-content .buttons{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .content-wraper {
+        margin: 90px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home-featured{
+        display: none !important;
+    }
+
+    nav.main-nav.navbar{
+        padding: 10px 10px !important;
+    }
+
+    .header-wrapper {
+        padding: 0px 10px 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-wraper {
+        margin: 90px 0;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    nav.main-nav.navbar{
+        padding: 10px 60px !important;
+    }
+
+    .header-wrapper {
+        padding: 0px 60px 80px;
+    }
+
+}
+
+@media (min-width: 1200px)  { 
+    .content-wraper {
+        margin: 90px 0;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    nav.main-nav.navbar{
+        padding: 10px 250px !important;
+    }
+
+    .header-wrapper {
+        padding: 0px 250px 80px;
+    }
+}
+
+@-webkit-keyframes rotation {
+    0%, 40%   {-webkit-transform: rotate(0deg);}
+    60%, 100% {-webkit-transform: rotate(360deg);}
+}
+@keyframes rotation {
+    0%, 40% { transform: rotate(0deg); }
+    60%, 100% { transform: rotate(360deg); }
+}
+.buttons .watch-icon {
+    position: absolute;
+  -webkit-animation: rotation 4s infinite linear;
+  animation: rotation 4s infinite linear;
+}
+
+.buttons .intro-text{
+    margin-left: 43px;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+
+    border-bottom: 15px solid white;
+  }
