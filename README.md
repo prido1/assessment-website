@@ -1,7 +1,7 @@
 # Assessment Website
 ## Installation Instructions
 Clone this repo, open terminal and navigate to the folder containing the cloned repo, then run the following commands.
-Before running the commands, create a .env file. _See the .env.example.._
+Before running the commands, create a .env file and put the database variables accordingly. _See the .env.example.._
 
 
 ```sh
