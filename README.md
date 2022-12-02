@@ -16,4 +16,4 @@ Now on yr browser goto http://127.0.0.1:8000 for website
 
 Default email: admin@gmail.com
 
-Default password: admin@_123
+Default password: admin
